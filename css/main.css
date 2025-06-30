@@ -1,0 +1,29 @@
+.marquee img {
+    width: 100px;
+    height: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+/* for the navigation bar */
+ul#nav {
+    padding: 20px;
+}
+ul#nav li{
+    text-align: center;
+    border: 5px outset red;
+    border-radius: 100px;
+    margin: 10px;
+    background-color: rgb(255, 136, 136);
+}
+ul#nav li:hover {
+    border-style: inset;
+    background-color: rgb(255, 0, 0);
+}
+ul#nav li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

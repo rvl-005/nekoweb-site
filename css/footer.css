@@ -1,4 +1,42 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-content {
+  background-color: rgb(107, 107, 250);
+  margin: 0;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: auto auto auto; /* 3 stacked rows */
+  row-gap: 20px;
+  padding: 20px;
+}
+.footer-content ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-images,
+.footer-links,
+.footer-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .footer-images img {
   width: 100px;
   height: 100px;
+}
+
+.footer-text {
+  flex-direction: column;
+  text-align: center;
 }
