@@ -1,0 +1,22 @@
+.marquee {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+.marquee img {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    height: 100px;
+    width: auto;
+    float: right;
+    padding: 10px;
+    animation: cycle 5s linear both infinite;
+}
+
+@keyframes cycle {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
